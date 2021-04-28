@@ -3,7 +3,8 @@ word.match? /\A[aeiou]/i
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  /in.+ing/i
+  /in[a-z]+ing/i
+
 
 end
 

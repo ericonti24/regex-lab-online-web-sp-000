@@ -7,7 +7,7 @@ text.scan(/un\w*ing\b/)
 end
 
 def words_five_letters_long(text)
-  $new = preg_grep("/^.{5}$/", $array);
+$new = preg_grep("/^.{5}$/", $array);
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)

@@ -3,7 +3,7 @@ word.match? /\A[aeiou]/i
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-  /^in[a-z]*ing$/i
+/in.+ing/
 end
 
 def words_five_letters_long(text)
